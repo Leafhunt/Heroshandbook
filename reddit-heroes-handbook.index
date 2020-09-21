@@ -3,11 +3,11 @@
 	<info>
 		<name>Heros Handbook</name>
 		<update version="0.0.1">
-			<file name="reddit-heros-handbook.index" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/reddit-heroes-handbook.index" />
+			<file name="heros-handbook.index" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/reddit-heroes-handbook.index?token=ARCWG4DTOEBGHGDQAWHPS527NEV2K" />
 		</update>
 	</info>
 	<files>
 		<!-- races -->
-		<file name="race-lightforgeddraenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml" />
+		<file name="race-lightforgeddraenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml?token=ARCWG4HI33Y5XV2GVFCVQ2K7NEV6K" />
 	</files>
 </index>
