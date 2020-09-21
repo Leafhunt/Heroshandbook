@@ -151,16 +151,16 @@
 			<p>The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
 		</description>
 		<sheet>
-			<description>While you aren’t wearing armor, your AC equals {{ac:forged of light barbarian}}. You can use a shield and still gain this benefit.</description>
+			<description>While you aren’t wearing armor, your AC equals {{ac:Forged of light draenei}}. You can use a shield and still gain this benefit.</description>
 		</sheet>
 		<rules>
-			<stat name="ac:forged of light barbarian:base" value="12" />
-			<stat name="ac:forged of light barbarian:dexterity" value="dexterity:modifier" />
+			<stat name="ac:Forged of light draenei:base" value="12" />
+			<stat name="ac:Forged of light draenei:dexterity" value="dexterity:modifier" />
 
-			<stat name="ac:forged of light barbarian" value="ac:forged of light barbarian:base" />
-			<stat name="ac:forged of light barbarian" value="ac:forged of light barbarian:dexterity" />
+			<stat name="ac:Forged of light draenei" value="ac:Forged of light draenei:base" />
+			<stat name="ac:Forged of light draenei" value="ac:Forged of light draenei:dexterity" />
 
-			<stat name="ac:calculation" value="ac:forged of light barbarian" bonus="calculation" equipped="[armor:none]" alt="forged of light (Barbarian)" />
+			<stat name="ac:calculation" value="ac:Forged of light draenei" bonus="calculation" equipped="[armor:none]" alt="Forged of light (Draenei)" />
 		</rules>
 	</element>
 	<element name="Fleet of Foot" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_HOLY_RESISTANCE">
