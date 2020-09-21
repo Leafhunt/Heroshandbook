@@ -163,11 +163,11 @@
 			<stat name="ac:calculation" value="ac:Forged of light draenei" bonus="calculation" equipped="[armor:none]" alt="Forged of light (Draenei)" />
 		</rules>
 	</element>
-	<element name="Fleet of Foot" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_HOLY_RESISTANCE">
+	<element name="Holy Resistance" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_HOLY_RESISTANCE">
 		<description>
 			<p>You have resistance to radiant damage.</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>You have resistance to radiant damage.</description>
 		</sheet>
 		<rules>
@@ -187,16 +187,15 @@
 		</rules>
 	</element>
 
-	<element name="Dark Elf" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_DARK_ELF">
+	<element name="Broken Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_BROKEN_DRAENEI">
 		<supports>Draenei</supports>
 		<description>
-			<p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
+			<p>As a broken draenei, you were left on Draenor as the legion invaded, your connection to the Naaru have been severed, leaving you an empty shell of your kin. The severance has disfigured your form, making you a outcast amongst the exodar and lightforged draenei.</p>
 			<p class="indent">Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Your darkvision has a radius of 120 feet.</p>
-			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
-			<p class="indent"><strong><em>Drow Magic.</em></strong> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Drow Weapon Training.</em></strong> You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to the unlit sky of Outland, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Elemental Bond.</em></strong> You know the frostbite cantrip. When you reach 3rd level, you can cast the earth tremor spell once per long rest. When you reach 5th level, you can also cast the gust of wind spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Outcast</em></strong> You are proficient in the Survival skill.</p>
 		</description>
 		<sheet display="false" />
 		<setters>
@@ -204,47 +203,36 @@
 			<set name="weight" modifier="1d6">75 lb.</set>
 		</setters>
 		<rules>
-			<stat name="charisma" value="1" />
-			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING" />
+			<stat name="wisdom" value="1" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_BOND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_OUTCAST" />
 		</rules>
 	</element>
-	<element name="Sunlight Sensitivity" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+	<element name="Drow Magic" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_ELEMENTAL_BOND">
 		<description>
-			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p>You know the frostbite cantrip. When you reach 3rd level, you can cast the earth tremor spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the gust of wind spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet>
-			<description>You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
-		</sheet>
-	</element>
-	<element name="Drow Magic" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_MAGIC">
-		<description>
-			<p>You know the <em>dancing lights</em> cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
-		</description>
-		<sheet>
-			<description>You know the dancing lights cantrip. (Charisma)</description>
-			<description level="3">You know the dancing lights cantrip. You can cast Faerie Fire 1/long rest. (Charisma)</description>
-			<description level="5">You know the dancing lights cantrip. You can cast Faerie Fire and Darkness 1/long rest. (Charisma)</description>
+			<description>You know the frostbite cantrip. (Wisdom)</description>
+			<description level="3">You know the frostbite cantrip. You can cast earth tremor 1/long rest. (Wisdom)</description>
+			<description level="5">You know the frostbite cantrip. You can cast earth tremor and Darkness 1/long rest. (Wisdom)</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" level="1" />
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FROSTBITE" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_EARTH_TREMOR" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="5" />
 		</rules>
 	</element>
-	<element name="Drow Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING">
+	<element name="Outcast" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_OUTCAST">
 		<description>
-			<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+			<p>You are proficient in the Survival skill.</p>
 		</description>
 		<sheet display="false">
-			<description>You have proficiency with rapiers, shortswords, and hand crossbows.</description>
+			<description>You are proficient in the Survival skill.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 		</rules>
 	</element>
 </elements>
