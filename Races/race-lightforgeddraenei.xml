@@ -61,7 +61,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
 	</element>
-	<element name="Draenei Subrace" type="Racial Trait" source="Hero’s Handbook" id="ID_RACIAL_TRAIT_DRAENEI_SUBRACE">
+	<element name="Draenei Subrace" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_DRAENEI_SUBRACE">
 		<description>
 			<p>Three subraces of draenei exist: exodar draenei, lightforged draenei, and broken draenei. Choose one of these subraces.</p>
 		</description>
@@ -71,7 +71,7 @@
 		</rules>
 	</element>
 
-	<element name="Exodar Draenei" type="Sub Race" source="Hero’s Handbook" id="ID_SUB_RACE_EXODAR_DRAENEI">
+	<element name="Exodar Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_EXODAR_DRAENEI">
 		<supports>Draenei</supports>
 		<description>
 			<p>As an exodar draenei, you have a natural connection with the Naaru, strengthening your bond to the light. You have fled your home planet of Arugs from the Burning Legion's crusade, forced into exile for centuries before crash landing on Azeroth's Azuremyst Isles.</p>
@@ -92,7 +92,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GIFT_NAARU" />
 		</rules>
 	</element> 	
-	<element name="Gemcutting" type="Racial Trait" source="Hero’s Handbook" id="ID_RACIAL_TRAIT_DRAENEI_JEWLERS_TOOLS">
+	<element name="Gemcutting" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_DRAENEI_JEWLERS_TOOLS">
 		<description>
 			<p>You are proficient with the jeweler's tools.</p>
 		</description>
@@ -115,7 +115,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR"/>
 		</rules>
 	</element>
-	<element name="Extra Language" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_GIFT_NAARU">
+	<element name="Gift of the Naaru" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_GIFT_NAARU">
 		<description>
 			<p>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can’t use it again until you finish a long rest.</p>
 		</description>
@@ -124,7 +124,7 @@
 		</sheet>
 	</element>
 
-	<element name="Wood Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
+	<element name="Wood Elf" type="Sub Race" source="Hero’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
 		<supports>Elf</supports>
 		<description>
 			<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>
