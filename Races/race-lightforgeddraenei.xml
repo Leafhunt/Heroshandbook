@@ -104,7 +104,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS" />
 		</rules>
 	</element>
-	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SPELLS">
+	<element name="Heroic Presence" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SPELLS">
 		<description>
 			<p>You can cast heroism and divine favor with this trait, using Wisdom as your spellcasting ability forthem. Once you cast either spell, you can’t cast it again with this trait until you finish a long rest.</p>
 		</description>
@@ -129,10 +129,10 @@
 		<supports>Draenei</supports>
 		<description>
 			<p>As a lightforged draenei, you have committed yourself to a crusade against the burning legion, infusing your body with the holy light. You are part of the Army of the Light, a force of draenei that took the fight with the Burning Legion into the Twisting Nether and more recently, Azeroth.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
 			<p class="indent"><strong><em>Forged of Light.</em></strong> The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
-			<p class="indent"><strong><em>Holy Resistance.</em></strong> You have resistance to radiant damage</p>
-			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You know the light cantrip. When you reach 3rd level, you can cast the guiding bolt spell once per long rest. When you reach 5th level, you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Holy Resistance.</em></strong> You have resistance to radiant damage.</p>
+			<p class="indent"><strong><em>Light's Judgement.</em></strong> You know the light cantrip. When you reach 3rd level, you can cast the guiding bolt spell once per long rest. When you reach 5th level, you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet display="false" />
 		<setters>
@@ -140,30 +140,50 @@
 			<set name="weight" modifier="1d4">100 lb.</set>
 		</setters>
 		<rules>
-			<stat name="r Constitution" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+			<stat name="Constitution" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_OF_LIGHT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HOLY_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_JUDGEMENT" />
 		</rules>
 	</element>
-	<element name="Fleet of Foot" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
+	<element name="Forged of Light" type="Class Feature" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FORGED_OF_LIGHT">
 		<description>
-			<p>Your base walking speed increases to 35 feet.</p>
-		</description>
-		<sheet display="false">
-			<description>Your speed increases to 35 feet.</description>
-		</sheet>
-		<rules>
-			<stat name="innate speed" value="35" bonus="base" />
-		</rules>
-	</element>
-	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD">
-		<description>
-			<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+			<p>The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
 		</description>
 		<sheet>
-			<description>You can attempt to hide even when you are only lightly obscured.</description>
+			<description>While you aren’t wearing armor, your AC equals {{ac:forged of light barbarian}}. You can use a shield and still gain this benefit.</description>
 		</sheet>
+		<rules>
+			<stat name="ac:forged of light barbarian:base" value="12" />
+			<stat name="ac:forged of light barbarian:dexterity" value="dexterity:modifier" />
+
+			<stat name="ac:forged of light barbarian" value="ac:forged of light barbarian:base" />
+			<stat name="ac:forged of light barbarian" value="ac:forged of light barbarian:dexterity" />
+
+			<stat name="ac:calculation" value="ac:forged of light barbarian" bonus="calculation" equipped="[armor:none]" alt="forged of light (Barbarian)" />
+		</rules>
+	</element>
+	<element name="Fleet of Foot" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_HOLY_RESISTANCE">
+		<description>
+			<p>You have resistance to radiant damage.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to radiant damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LIGHT_JUDGEMENT">
+			<description>You know the Light cantrip. (Wisdom)</description>
+			<description level="3">You know the Light cantrip. You can cast the guiding bolt spell as a 2nd-level spell (1/long rest). (wisdom)</description>
+			<description level="5">You know the Light cantrip. You can cast the guiding bolt spell as a 2nd-level spell and the branding smite spell as a 3rd-level spell (1/long rest). (wisdom)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" level="5"/>
+		</rules>
 	</element>
 
 	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
