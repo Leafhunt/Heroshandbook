@@ -63,9 +63,6 @@
 		<sheet display="false">
 			<description> You have resistance against necrotic damage.</description>
 		</sheet>
-		<rules>
-			<grant type="resistance" id="ID_RESISTANCE_DAMAGE_NECROTIC" />
-		</rules>
 	</element>
 	<element name="Fey Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FEY_ANCESTRY">
 		<description>
