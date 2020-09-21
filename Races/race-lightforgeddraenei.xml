@@ -48,6 +48,7 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHADOW_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAENEI_SUBRACE" />
 		</rules>
 	</element>
 	<element name="Shadow Resistance" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_SHADOW_RESISTANCE">
@@ -72,7 +73,7 @@
 	</element>
 
 	<element name="Exodar Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_EXODAR_DRAENEI">
-		<supports>Draeneis</supports>
+		<supports>Draenei</supports>
 		<description>
 			<p>As an exodar draenei, you have a natural connection with the Naaru, strengthening your bond to the light. You have fled your home planet of Arugs from the Burning Legion's crusade, forced into exile for centuries before crash landing on Azeroth's Azuremyst Isles.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
@@ -125,7 +126,7 @@
 	</element>
 
 	<element name="Lightforged Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_LIGHTFORGED_DRAENEI">
-		<supports>Draeneis</supports>
+		<supports>Draenei</supports>
 		<description>
 			<p>As a lightforged draenei, you have committed yourself to a crusade against the burning legion, infusing your body with the holy light. You are part of the Army of the Light, a force of draenei that took the fight with the Burning Legion into the Twisting Nether and more recently, Azeroth.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
@@ -166,7 +167,7 @@
 	</element>
 
 	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
-		<supports>Draeneis</supports>
+		<supports>Draenei</supports>
 		<description>
 			<p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
 			<p class="indent">Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</p>
