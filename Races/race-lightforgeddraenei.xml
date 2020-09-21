@@ -124,14 +124,14 @@
 		</sheet>
 	</element>
 
-	<element name="Wood Elf" type="Sub Race" source="Hero’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
-		<supports>Elf</supports>
+	<element name="Lightforged Draenei" type="Sub Race" source="Hero’s Handbook" id="ID_SUB_RACE_LIGHTFORGED_DRAENEI">
+		<supports>Draenei</supports>
 		<description>
-			<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>
+			<p>As a lightforged draenei, you have committed yourself to a crusade against the burning legion, infusing your body with the holy light. You are part of the Army of the Light, a force of draenei that took the fight with the Burning Legion into the Twisting Nether and more recently, Azeroth.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
-			<p class="indent"><strong><em>Fleet of Foot.</em></strong> Your base walking speed increases to 35 feet.</p>
-			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+			<p class="indent"><strong><em>Forged of Light.</em></strong> The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
+			<p class="indent"><strong><em>Holy Resistance.</em></strong> You have resistance to radiant damage</p>
+			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You know the light cantrip. When you reach 3rd level, you can cast the guiding bolt spell once per long rest. When you reach 5th level, you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet display="false" />
 		<setters>
@@ -139,7 +139,7 @@
 			<set name="weight" modifier="1d4">100 lb.</set>
 		</setters>
 		<rules>
-			<stat name="wisdom" value="1" />
+			<stat name="r Constitution" value="1" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
