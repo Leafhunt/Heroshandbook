@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	
-	<element name="Lightforged Draenei" type="Race" source="Heroes Handbook" id="ID_RDDT_HHB_RACE_LIGHTFORGED_DRAENEI">
+	<element name="Lightforged Draenei" type="Race" source="Heroe's Handbook" id="ID_RDDT_HHB_RACE_LIGHTFORGED_DRAENEI">
 		<description>
 			<p class="flavor">Draenei are members of the Alliance, having encountered the noble night elves shortly after their crash landing on Azeroth. Inspired by heroic tales of the Alliance and its victories, the draenei sought out and pledged their loyalty to the Alliance. due to their friendly and honorable attitude, they tend to get along well with races of both the Alliance and Horde, so long as personal grudges aren't included.</p>
 			<h4>EXODAR DRAENEI</h4>
@@ -20,16 +20,13 @@
 			<p>Although draenei are friendly and honorable towards other races, that attitude is quickly dissolved when confonrted by an orc. They remember the atrocities done to their race by the hands of orcs on Draenor and won't leave bygones of the past to be forgotten. Draenei carry a deep distrust and in some cases hate for the orcs.</p>
 			<h4>DRAENEI NAMES</h4>
 			<p>Draenei have two names, a birthname and an name taken upon reaching adulthood. There is no direct separate within draenei culture that separate birthnames from a name taken later in a draenei's life. Draenei have lost too much too much to still keep family names.</p>
-			<p class="indent">On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.</p>
-			<p>
-			<span class="feature">Child Names:</span>Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall<br />
-			<span class="feature">Male Names:</span>Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis<br />
-			<span class="feature">Female Names:</span>Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia<br />
-			<h4>ELF TRAITS</h4>
-			<p>Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
+			<span class="feature">Male Names:</span>Meolphi, Bimerd, Hiktin, Ocdam, Nosmas, Ondut, Broruk, Oter, Lacasik, Midirgerd, Drocran<br />
+			<span class="feature">Female Names:</span>Eshaatt, Ize, Ruka, Nalre, Hahse, Efae, Nerii, Asara, Velbus, Fuma, Oren, Suhe, Vumo<br />
+			<h4>DRAENEI TRAITS</h4>
+			<p>Your draenei character has a variety of natural abilities.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>
-			<p class="indent"><strong><em>Alignment.</em></strong> Elves love freedom, variety, and selfexpression, so they lean strongly toward the gentler aspects of chaos. They value and protect others'freedom as well as their own, and they are more often good than not. The drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Draenei mature slightly slower than humans, reaching adulthood around age 20 and they can live thousands of year, exceeding the ancient ages of the night elves.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Draenei are mostly good. Those who strive towards law are sages, priests, paladins, vindicators, or scholars. Those who tend toward chaos are warriors, rangers, or in other ways people more fond of pure fighting.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
@@ -41,36 +38,33 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
-			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
-			<set name="names" type="child">Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</set>
-			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
-			<set name="names-format">{{name}} {{family}}</set>
+			<set name="names" type="male">Meolphi, Bimerd, Hiktin, Ocdam, Nosmas, Ondut, Broruk, Oter, Lacasik, Midirgerd, Drocran</set>
+			<set name="names" type="female">Eshaatt, Ize, Ruka, Nalre, Hahse, Efae, Nerii, Asara, Velbus, Fuma, Oren, Suhe, Vumo</set>
+			<set name="names-format">{{name}}</set>
 			<set name="height" modifier="2d10">4'6"</set>
-			<set name="weight" modifier="1d4">90 lb.</set>
+			<set name="weight" modifier="1d6">150 lb.</set>
 		</setters>
 		<rules>
 			<stat name="charisma" value="2" requirements="!ID_UA_PSK_GRANTS_ELF_SUBRACE" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHADOW_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEY_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELVEN_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+	<element name="Shadow Resistance" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_SHADOW_RESISTANCE">
 		<description>
-			<p>You have proficiency in the Perception skill.</p>
+			<p> You have resistance against necrotic damage.</p>
 		</description>
 		<sheet display="false">
-			<description>You have proficiency in the Perception skill.</description>
+			<description> You have resistance against necrotic damage.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="resistance" id="ID_RESISTANCE_DAMAGE_NECROTIC" />
 		</rules>
 	</element>
 	<element name="Fey Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FEY_ANCESTRY">
