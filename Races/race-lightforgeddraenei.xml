@@ -124,7 +124,7 @@
 		</sheet>
 	</element>
 
-	<element name="Lightforged Draenei" type="Sub Race" source="Hero’s Handbook" id="ID_SUB_RACE_LIGHTFORGED_DRAENEI">
+	<element name="Lightforged Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_LIGHTFORGED_DRAENEI">
 		<supports>Draenei</supports>
 		<description>
 			<p>As a lightforged draenei, you have committed yourself to a crusade against the burning legion, infusing your body with the holy light. You are part of the Army of the Light, a force of draenei that took the fight with the Burning Legion into the Twisting Nether and more recently, Azeroth.</p>
@@ -145,7 +145,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
 		</rules>
 	</element>
-	<element name="Fleet of Foot" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
+	<element name="Fleet of Foot" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
 		<description>
 			<p>Your base walking speed increases to 35 feet.</p>
 		</description>
