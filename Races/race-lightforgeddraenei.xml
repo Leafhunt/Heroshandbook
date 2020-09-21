@@ -146,7 +146,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_JUDGEMENT" />
 		</rules>
 	</element>
-	<element name="Forged of Light" type="Class Feature" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FORGED_OF_LIGHT">
+	<element name="Forged of Light" type="Class Feature" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FORGED_OF_LIGHT">
 		<description>
 			<p>The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
 		</description>
@@ -174,7 +174,8 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
 		</rules>
 	</element>
-	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LIGHT_JUDGEMENT">
+	<element name="Light's Judgement" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_LIGHT_JUDGEMENT">
+		<sheet>
 			<description>You know the Light cantrip. (Wisdom)</description>
 			<description level="3">You know the Light cantrip. You can cast the guiding bolt spell as a 2nd-level spell (1/long rest). (wisdom)</description>
 			<description level="5">You know the Light cantrip. You can cast the guiding bolt spell as a 2nd-level spell and the branding smite spell as a 3rd-level spell (1/long rest). (wisdom)</description>
@@ -186,7 +187,7 @@
 		</rules>
 	</element>
 
-	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
+	<element name="Dark Elf" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_DARK_ELF">
 		<supports>Draenei</supports>
 		<description>
 			<p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
