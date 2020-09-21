@@ -60,7 +60,7 @@
 		<description>
 			<p> You have resistance against necrotic damage.</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description> You have resistance against necrotic damage.</description>
 		</sheet>
 	</element>
