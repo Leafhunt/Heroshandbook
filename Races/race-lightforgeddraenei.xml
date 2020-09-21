@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	
-	<element name="Lightforged Draenei" type="Race" source="Hero's Handbook" id="ID_RDDT_HHB_RACE_LIGHTFORGED_DRAENEI">
+	<element name="Draenei" type="Race" source="Hero's Handbook" id="ID_RDDT_HHB_RACE_LIGHTFORGED_DRAENEI">
 		<description>
 			<p class="flavor">Draenei are members of the Alliance, having encountered the noble night elves shortly after their crash landing on Azeroth. Inspired by heroic tales of the Alliance and its victories, the draenei sought out and pledged their loyalty to the Alliance. due to their friendly and honorable attitude, they tend to get along well with races of both the Alliance and Horde, so long as personal grudges aren't included.</p>
 			<h4>EXODAR DRAENEI</h4>
