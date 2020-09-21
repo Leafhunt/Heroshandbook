@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Lightforged Draenei</name>
+		<name>Draenei</name>
+		<update version="0.0.5">
+			<file name="lightforgeddaenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml?token=ARCWG4BLRBAXHONOVWKTWLC7NDHFI" />
+		</update>
 	</info>
 	
 	<element name="Lightforged Draenei" type="Race" source="Heroes Handbook" id="ID_RDDT_HHB_RACE_LIGHTFORGED_DRAENEI">
 		<description>
 			<p class="flavor">Draenei are members of the Alliance, having encountered the noble night elves shortly after their crash landing on Azeroth. Inspired by heroic tales of the Alliance and its victories, the draenei sought out and pledged their loyalty to the Alliance. due to their friendly and honorable attitude, they tend to get along well with races of both the Alliance and Horde, so long as personal grudges aren't included.</p>
 			<h4>EXODAR DRAENEI</h4>
-			<p>These draenei pledged their allegiance to the Alliance shortly after they crash landed on the Azuremust isles. Although their newfound home lies distant from the Eastern Kingdoms and much of the Alliance, they have become a valuable addition to its cause.</p>
-			<p class="indent">Elves’ coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.</p>
-			<h4>A TIMELESS PERSPECTIVE</h4>
-			<p>Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorterlived races more deeply. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance.</p>
-			<p class="indent">Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.</p>
-			<h4>HIDDEN WOODLAND REALMS</h4>
-			<p>Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).</p>
-			<p class="indent">Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children.</p>
-			<h4>EXPLORATION AND ADVENTURE</h4>
-			<p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes.</p>
-			<h4>ELF NAMES</h4>
-			<p>Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.</p>
+			<p class="indent">These draenei pledged their allegiance to the Alliance shortly after they crash landed on the Azuremust isles. Although their newfound home lies distant from the Eastern Kingdoms and much of the Alliance, they have become a valuable addition to its cause.</p>
+			<h4>LIGHTFORGED DRAENEI</h4>
+			<p class="indent">These draenei emerged from the twisting nether to aid in the far against the Burning Legion during the Third Invasion of Azeroth. These draenei were welcomed into the Alliance as they re-joined their exodar kin found on Azeroth.</p>
+			<h4>BROKEN DRAENEI</h4>
+			<p class="indent">These draenei are outcasts that have never pledged allegiance to any faction on Azeroth. They inhabit the broken planet of Draenor and are as likely to work together with members of the Alliance as they are members of the Horde.</p>
+			<h4>DISTRUST OF THE ORCS</h4>
+			<p>Although draenei are friendly and honorable towards other races, that attitude is quickly dissolved when confonrted by an orc. They remember the atrocities done to their race by the hands of orcs on Draenor and won't leave bygones of the past to be forgotten. Draenei carry a deep distrust and in some cases hate for the orcs.</p>
+			<h4>DRAENEI NAMES</h4>
+			<p>Draenei have two names, a birthname and an name taken upon reaching adulthood. There is no direct separate within draenei culture that separate birthnames from a name taken later in a draenei's life. Draenei have lost too much too much to still keep family names.</p>
 			<p class="indent">On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf’s adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.</p>
 			<p>
 			<span class="feature">Child Names:</span>Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall<br />
-			<span class="feature">Male Adult Names:</span>Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis<br />
-			<span class="feature">Female Adult Names:</span>Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia<br />
-			<span class="feature">Family Names (Common Translations):</span>Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Nai'lo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)
-			</p>
+			<span class="feature">Male Names:</span>Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis<br />
+			<span class="feature">Female Names:</span>Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia<br />
 			<h4>ELF TRAITS</h4>
 			<p>Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
