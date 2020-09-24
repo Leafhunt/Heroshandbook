@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-  <info>
-    <name>Gray Dwarves (Duergar)</name>
-    <description>Subrace from the Sword Coast Adventurer’s Guide.</description>
-    <update version="0.1.2">
-      <file name="race-dwardsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml?token=ARCWG4CNXDDAQJYRLRFGDL27NSV2G" />
-    </update>
-  </info>
+    <info>
+        <name>Gray Dwarves (Duergar)</name>
+        <description>Subrace from the Sword Coast Adventurer’s Guide.</description>
+        <update version="0.1.2">
+        <file name="race-dwardsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml?token=ARCWG4CNXDDAQJYRLRFGDL27NSV2G" />
+        </update>
+    </info>
 
-  <element name="Ironforge" type="Sub Race" source="Hero's Handbook" id="ID_HHB_SUBRACE_IRONFORGE_DWARF">
-    <supports>Dwarf</supports>
-    <description>
-        <p>As an ironforge dwarf, you are strong and hardy, capable of enduring the cold of Dun Morogh and blows of battle. Ironforge dwarves are known for their military expertise and rarely back down from a fight, or a brawl.</p>
-        <span class="feature">Ability Score Increase.</span>Your Strength score increases by 1.</p>
-        <span class="feature">Dwarven Toughness.</span>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
-        <span class="feature">Stoneform.</span>You can use your reaction when you are hit by a melee attack you can see to give yourself resistance towards bludgeoning, piercing, and slashing damage until the end of the next turn. You can't use this feature again until you finish a long rest.</p>
-    </description>
-    <sheet display="false"/>
-    <rules>
-      <stat name="strength" value="1" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARF_TOUGHNESS" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STONEFORM" />
-    </rules>
-  </element>
+    <element name="Ironforge" type="Sub Race" source="Hero's Handbook" id="ID_HHB_SUBRACE_IRONFORGE_DWARF">
+        <supports>Dwarf</supports>
+        <description>
+            <p>As an ironforge dwarf, you are strong and hardy, capable of enduring the cold of Dun Morogh and blows of battle. Ironforge dwarves are known for their military expertise and rarely back down from a fight, or a brawl.</p>
+            <p><span class="feature">Ability Score Increase.</span>Your Strength score increases by 1.</p>
+            <p><span class="feature">Dwarven Toughness.</span>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+            <p><span class="feature">Stoneform.</span>You can use your reaction when you are hit by a melee attack you can see to give yourself resistance towards bludgeoning, piercing, and slashing damage until the end of the next turn. You can't use this feature again until you finish a long rest.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+        <stat name="strength" value="1" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARF_TOUGHNESS" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STONEFORM" />
+        </rules>
+    </element>
 
 	<element name="Duergar Resilience" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_DWARF_TOUGHNESS">
 	    <description>
@@ -54,18 +54,19 @@
     <supports>Dwarf</supports>
     <description>
         <p>As a dark iron dwarf, you have a fiery temper and a fierce determination. Dark iron dwarves worshiped the firelord Ragnaros and gained an affinity for fire and flames.</p>
-        <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.</p>
-        <span class="feature">Superior Darkvision.</span>. Your darkvision has a radius of 120 feet.</p>
-        <span class="feature">Fireblood.</span>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
-        <span class="feature">Forged in Flames.</span>You have resistance to fire damage.</p>
+        <p><span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.</p>
+        <p><span class="feature">Superior Darkvision.</span>. Your darkvision has a radius of 120 feet.</p>
+        <p><span class="feature">Fireblood.</span>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
+        <p><span class="feature">Forged in Flames.</span>You have resistance to fire damage.</p>
     </description>
-    <sheet display="false"/>
-    <rules>
-      <stat name="intelligence" value="1" />
-      <grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_IN_FLAMES" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIREBLOOD" />
-    </rules>
+        <sheet display="false"/>
+        <rules>
+        stat name="intelligence" value="1" />
+        <grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_IN_FLAMES" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIREBLOOD" />
+        </rules>
+    </element>
 
     <element name="Fireblood" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FIREBLOOD">
 		<description>
@@ -90,4 +91,5 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element>
+    
 </elements>  
