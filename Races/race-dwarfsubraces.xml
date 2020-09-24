@@ -76,7 +76,7 @@
 			<description>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="D_PHB_SPELL_LESSER_RESTORATION" />>
+			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" />
 		</rules>
 	</element>
 
