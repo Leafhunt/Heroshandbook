@@ -15,7 +15,7 @@
         <span class="feature">Ability Score Increase.</span>Your Strength score increases by 1.<br />
         <span class="feature">Dwarven Toughness.</span>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.<br />
         <span class="feature">Stoneform.</span>You can use your reaction when you are hit by a melee attack you can see to give yourself resistance towards bludgeoning, piercing, and slashing damage until the end of the next turn. You can't use this feature again until you finish a long rest.<br />
-      </p>
+        </p>
     </description>
     <sheet display="false"/>
     <rules>
@@ -59,7 +59,7 @@
         <span class="feature">Superior Darkvision.</span>. Your darkvision has a radius of 120 feet.<br />
         <span class="feature">Fireblood.</span>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.<br />
         <span class="feature">Forged in Flames.</span>You have resistance to fire damage.<br />
-      </p>
+        </p>
     </description>
     <sheet display="false"/>
     <rules>
