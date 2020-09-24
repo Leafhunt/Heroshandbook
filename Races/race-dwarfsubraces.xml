@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Gray Dwarves (Duergar)</name>
-        <description>Subrace from the Sword Coast Adventurer’s Guide.</description>
+        <name>dwarfsubraces</name>
+        <description>Subrace from the Hero's Handbook.</description>
         <update version="0.1.2">
         <file name="race-dwardsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml?token=ARCWG4CNXDDAQJYRLRFGDL27NSV2G" />
         </update>
@@ -51,17 +51,17 @@
 	</element>
 
     <element name="Dark Iron" type="Sub Race" source="Hero's Handbook" id="ID_HHB_SUBRACE_DARK_IRON">
-    <supports>Dwarf</supports>
-    <description>
-        <p>As a dark iron dwarf, you have a fiery temper and a fierce determination. Dark iron dwarves worshiped the firelord Ragnaros and gained an affinity for fire and flames.</p>
-        <p><span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.</p>
-        <p><span class="feature">Superior Darkvision.</span>. Your darkvision has a radius of 120 feet.</p>
-        <p><span class="feature">Fireblood.</span>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
-        <p><span class="feature">Forged in Flames.</span>You have resistance to fire damage.</p>
-    </description>
+        <supports>Dwarf</supports>
+        <description>
+            <p>As a dark iron dwarf, you have a fiery temper and a fierce determination. Dark iron dwarves worshiped the firelord Ragnaros and gained an affinity for fire and flames.</p>
+            <p><span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.</p>
+            <p><span class="feature">Superior Darkvision</span>Your darkvision has a radius of 120 feet.</p>
+            <p><span class="feature">Fireblood.</span>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
+            <p><span class="feature">Forged in Flames.</span>You have resistance to fire damage.</p>
+        </description>
         <sheet display="false"/>
         <rules>
-        stat name="intelligence" value="1" />
+        <stat name="intelligence" value="1" />
         <grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
         <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_IN_FLAMES" />
         <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIREBLOOD" />
@@ -80,7 +80,7 @@
 		</rules>
 	</element>
 
-    <element name="Fireblood" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FIREBLOOD">
+    <element name="Forged in Flames" type="Racial Trait" source="Hero's Handbook" id="ID_RACIAL_TRAIT_FORGED_IN_FLAMES">
 		<description>
 			<p> You have resistance against fire damage.</p>
 		</description>
@@ -91,5 +91,4 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element>
-    
 </elements>  
