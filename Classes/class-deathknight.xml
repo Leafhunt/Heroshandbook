@@ -4,6 +4,7 @@
 		<name>Deathknight</name>
 		<description>The Deathknight class from the Hero's Handbook.</description>
 		<update version="0.2.9">
+			<file name="class-deathknight.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Classes/class-deathknight.xml?token=GHSAT0AAAAAABTUAY7ICK56W7ZSQWKHFD4EYS26MXQ" />
 		</update>
 	</info>
 
