@@ -4,7 +4,7 @@
         <name>dwarfsubraces</name>
         <description>Subrace from the Hero's Handbook.</description>
         <update version="0.1.2">
-        <file name="race-dwardsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml />
+        <file name="race-dwardsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml" />
         </update>
     </info>
 
