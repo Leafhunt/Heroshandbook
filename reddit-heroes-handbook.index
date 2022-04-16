@@ -7,8 +7,8 @@
 		</update>
 	</info>
 	<files>
-		<file name="race-lightforgeddraenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml />
-		<file name="race-dwarfsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml />
+		<file name="race-lightforgeddraenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml" />
+		<file name="race-dwarfsubraces.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-dwarfsubraces.xml" />
 		<file name="class-deathknight.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Classes/class-deathknight.xml" />
 	</files>
 </index>
