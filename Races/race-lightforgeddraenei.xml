@@ -3,7 +3,7 @@
 	<info>
 		<name>Draenei</name>
 		<update version="0.0.5">
-			<file name="lightforgeddaenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml?token=ARCWG4BLRBAXHONOVWKTWLC7NDHFI" />
+			<file name="lightforgeddaenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml?token=GHSAT0AAAAAABTUAY7JPHS6TBDBJEB6FHSYYS26LOA" />
 		</update>
 	</info>
 	
@@ -46,7 +46,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<grant type="Language" id="ID_LANGUAGE_DRAENEI" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHADOW_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAENEI_SUBRACE" />
 		</rules>
@@ -70,6 +70,17 @@
 		<rules>
 			<select type="Sub Race" name="Draenei Subrace" supports="Draenei" />
 		</rules>
+	</element>
+	<element name="Draenei" type="Language" source="Hero's Handbook" id="ID_LANGUAGE_DRAENEI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by draenei.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Draenei</set>
+			<set name="script">Draenei</set>
+		</setters>
 	</element>
 
 	<element name="Exodar Draenei" type="Sub Race" source="Hero's Handbook" id="ID_SUB_RACE_EXODAR_DRAENEI">
