@@ -3,7 +3,7 @@
 	<info>
 		<name>Heros Handbook</name>
 		<update version="0.0.1">
-			<file name="heros-handbook.index" url="https://github.com/Leafhunt/Heroshandbook/blob/master/reddit-heroes-handbook.index" />
+			<file name="heros-handbook.index" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/reddit-heroes-handbook.index" />
 		</update>
 	</info>
 	<files>
