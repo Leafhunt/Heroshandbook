@@ -3,7 +3,7 @@
 	<info>
 		<name>Draenei</name>
 		<update version="0.0.5">
-			<file name="lightforgeddaenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml?token=GHSAT0AAAAAABTUAY7JPHS6TBDBJEB6FHSYYS26LOA" />
+			<file name="lightforgeddaenei.xml" url="https://raw.githubusercontent.com/Leafhunt/Heroshandbook/master/Races/race-lightforgeddraenei.xml" />
 		</update>
 	</info>
 	
